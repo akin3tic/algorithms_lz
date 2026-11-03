@@ -10,7 +10,7 @@ while i<len(nsl)-1:
         nsl[i],nsl[i+1]=nsl[i+1],nsl[i]
         c+=1
         i=0
-        #print(nsl)
+        print(nsl)
     else:
         i+=1
 print("отсортированный список пузырьком: ", nsl)
@@ -27,6 +27,6 @@ for j in range(len(nsl2)):
     if max != j:
         nsl2[j],nsl2[max]=nsl2[max],nsl2[j]
         c2+=1
-        #print(nsl2)
+        print(nsl2)
 print("отсортированный список выбором: ", nsl2)
 print("количество операций: ", c2)
